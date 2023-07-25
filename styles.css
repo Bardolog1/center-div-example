@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.content{
+    position: relative;
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+h2{
+    position: absolute;
+    top:93%;
+    left: 90%;  
+    text-shadow: 1px 0px 13px rgba(123,255,0,1); 
+    color: #fff;
+    font-size: 1.5em;
+} 
+.container_1{
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+.container_2{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+.container_3{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121); 
+}
+.container_4{
+    background: linear-gradient(to right, #00f260, #0575e6); 
+}  
+/*
+Centar un DIV
+
+//==// GRID //==//
+-- a los hijos del elemento --
+
+1.
+    display: grid;
+    place-items:center;
+
+
+
+//==// MARGIN AUTO //==//
+-- al elemento --
+
+2.   .padre{
+        position: relative;
+    }
+
+    .hijo{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+//==// FLEXBOX //==//
+-- a los hisjos del elemento --
+
+3.
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+//==// TRANSFORM & TRANSLATE //==//
+-- al elemento --
+
+4.
+     .padre{
+        position: relative;
+    }
+
+    .hijo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+//==// FEXLBOX & MARGIN AUTO //==//
+
+-- al hijo del elemento --
+5.
+    .padre{
+        display:flex;
+    }
+
+    .hijo{
+        margin:auto;
+    }
+
+//==// GRID & MARGIN AUTO //==//
+
+-- al hijo del elemento --
+6.
+    .padre{
+        display:grid;
+    }
+
+    .hijo{
+        margin:auto;
+    }
+
+
+
+
+
+*/
